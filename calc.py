@@ -24,7 +24,7 @@ def calc(a, b, op):
     elif op == '*':
         return mul(a, b)
     else:
-        return "Error"
+        return "Invalid input"
 
 
 if __name__ == '__main__':
