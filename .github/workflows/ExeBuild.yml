@@ -17,4 +17,11 @@ jobs:
       uses: Nuitka/Nuitka-Action@v0.4
       with:
         script-name: calc.py
+      
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+          name: Windows Build
+          path: 
+            build.exe
 
