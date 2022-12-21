@@ -24,13 +24,13 @@ jobs:
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
       # Build python script into a stand-alone exe
-      - uses: Nuitka/Nuitka-Action@v0.4
+      - uses: Rodnik05/software_development_tools_lab_6@0.0
         with:
-          script-name: hello_world.py
+          script-name: calc.py
 
       # Uploads artifact
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: exe
-          path: build/hello_world.exe
+          path: build/calc.exe
