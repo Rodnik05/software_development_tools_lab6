@@ -15,4 +15,6 @@ jobs:
     steps:
     - name: Build EXE from Python Script
       uses: Nuitka/Nuitka-Action@v0.4
+      with:
+        script-name: calc.py
 
