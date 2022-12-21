@@ -24,7 +24,7 @@ jobs:
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
       # Build python script into a stand-alone exe
-      - uses: Rodnik05/software_development_tools_lab_6@1
+      - uses: Rodnik05/software_development_tools_lab_6@main
         with:
           script-name: calc.py
 
