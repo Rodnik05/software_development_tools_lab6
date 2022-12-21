@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Windows
-          path: dist/calc.exe
+          path: ${{ github.workspace }}/calc.exe
